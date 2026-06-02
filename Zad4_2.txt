@@ -1,0 +1,22 @@
+function Dashboard() {
+ 
+	function UserBadge() 
+        {
+ 
+		return <span className="badge">Admin</span>; 
+	}
+ 
+	function StatsCard() // statsCard() z małej
+	{
+ 
+		return <div className="stats">Statystyki</div>; 
+	}
+ 
+return (
+ 
+	<div> 
+<UserBadge /> 
+<StatsCard />  // to samo, było wywoływane z małej 
+</div> 
+	); 
+} 
